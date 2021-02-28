@@ -79,9 +79,9 @@ const ArtistPage = ({
             <div className="similar-artists">
               <h4>Similar Artists</h4>
               <ul>
-                {artistInfo.similar.artist.slice(0, 3).map((item) => (
-                  <li>
-                    <a href={item.url} target="_blank">
+                {artistInfo.similar.artist.slice(0, 3).map((item, index) => (
+                  <li key={index}>
+                    <a href={item.url} rel="noreferrer" target="_blank">
                       {item.name}
                     </a>
                   </li>
@@ -91,8 +91,8 @@ const ArtistPage = ({
             <div className="similar-tags">
               <h4>Artist's tags</h4>
               <ul>
-                {artistInfo.tags.tag.map((item) => (
-                  <li>{item.name}</li>
+                {artistInfo.tags.tag.map((item, index) => (
+                  <li key={index}>{item.name}</li>
                 ))}
               </ul>
             </div>
