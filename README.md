@@ -2,7 +2,9 @@
 ## Production
 
 Unfortunately, the LastFM API no longer provides pictures for artists, and only provide a blank picture with a star, which is what I have rendering. 
+
 Made using React
+
 You can download the application and install it locally:
 
 ```
