@@ -33,8 +33,8 @@ const AlbumPageItem = ({ name, image, tracks, tags, wiki }) => {
         <div className="album-tags">
           <span style={{ fontWeight: "600" }}>Tags: </span>
           <ul>
-            {tags.tag.map((item) => (
-              <li>{item.name}</li>
+            {tags.tag.map((item, index) => (
+              <li key={index}>{item.name}</li>
             ))}
           </ul>
         </div>

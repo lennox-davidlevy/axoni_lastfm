@@ -2,7 +2,6 @@ import React from "react";
 import AlbumPageItem from "./AlbumPageItem";
 
 const AlbumPage = ({ data }) => {
-  console.log(data);
   return (
     <div className="album-info-container">
       <h1>Albums</h1>
