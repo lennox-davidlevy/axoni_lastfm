@@ -2,7 +2,7 @@
 ## Production
 
 Made using React
-You can download the application and run it locally:
+You can download the application and install it locally:
 
 ```
 $ git clone https://github.com/lennox-davidlevy/axoni_lastfm.git
@@ -12,4 +12,10 @@ $ npm install
 
 ## ADD LastFM API KEY
 Please go to root/.env and replace "ENTER LASTFM API KEY HERE" with the API key provided to me for this application to work!
+
+## And then just run it!
+
+```
+$ npm start
+```
 
