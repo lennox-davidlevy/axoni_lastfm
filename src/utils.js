@@ -29,12 +29,6 @@ const listTenTracks = (arr) => {
   for (let i = 0; i < 10; i++) {
     let track = arr[i];
     if (track && track.name) {
-      //let adjustedTrackName;
-      //if (track.name.length > 35) {
-      //adjustedTrackName = `${track.name.slice(0, 35)}...`;
-      //} else {
-      //adjustedTrackName = track.name;
-      //}
       result.push(track.name);
     }
   }

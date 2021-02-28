@@ -8,7 +8,6 @@ const App = () => {
   const [artistSearchDisplay, setArtistSearchDisplay] = useState([]);
   const [loading, setLoading] = useState(false);
   const [selectedArtist, setSelectedArtist] = useState("");
-  //const [artistData, setArtistData] = useState({});
   return (
     <div className="App">
       <div className="header">
@@ -28,7 +27,6 @@ const App = () => {
         <ArtistPage
           setSelectedArtist={setSelectedArtist}
           selectedArtist={selectedArtist}
-          //artistData={artistData}
           setLoading={setLoading}
           loading={loading}
         />
